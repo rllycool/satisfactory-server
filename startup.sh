@@ -3,7 +3,7 @@ docker run \
 --name=satisfactory-server \
 --hostname boots-server \
 --restart unless-stopped \
---volume ./satisfactory-server:/config \
+--volume ./boots-server:/config \
 --env MAXPLAYERS=4 \
 --env PGID=1000 \
 --env PUID=1000 \
