@@ -1,4 +1,4 @@
 docker pull wolveix/satisfactory-server:latest
 docker stop satisfactory-server
 docker rm satisfactory-server
-docker run ...
+./startup.sh
