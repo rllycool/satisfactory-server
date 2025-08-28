@@ -1,18 +1,17 @@
 # satisfactory-server
-
-runs a dedicated server of Satisfactory for me and my friends
-
-an ubuntu pc pulls a docker image to host the server
 ![logo](/assets/Satisfactory-Logo.png)
 
-setup!
----------------------
-'./startup.sh' docker run command to pull the server image
-'./update.sh' script to pull server image, stop server and start again
+Runs a dedicated server of [Satisfactory](https://store.steampowered.com/app/526870/Satisfactory) for me and my friends to play on!
+
+ubuntu pc setup pulls a docker image to host the server
+## setup!
+
+`./startup.sh` docker run command to pull the server image
+
+`./update.sh` script to pull server image, then restart server
 
 ## Reference
-Docker Server Hosting
----------------------
-https://hub.docker.com/r/wolveix/satisfactory-server
 
-0/
+_Docker Server Hosting_: https://hub.docker.com/r/wolveix/satisfactory-server
+
+_Docker_: https://www.docker.com
