@@ -5,13 +5,17 @@ Runs a dedicated server of [Satisfactory](https://store.steampowered.com/app/526
 
 ubuntu pc setup pulls a docker image to host the server
 ## setup!
+_run docker compose_
 
-`./startup.sh` docker run command to pull the server image
+`./build sh`
 
-`./update.sh` script to pull server image, then restart server
+OR 
+
+_docker OG_
+
+`./utils/update.sh` script to pull server image, then restart server
 
 ## Reference
-
 _Docker Server Hosting_: https://hub.docker.com/r/wolveix/satisfactory-server
 
 _Docker_: https://www.docker.com
